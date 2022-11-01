@@ -1,0 +1,51 @@
+.header {
+    background-color: $monyellow;
+}
+
+header#main-header {
+    color: $darkblue;
+    margin: {
+        top: 0;
+        bottom: 0;
+        left: 130px
+    };
+    
+    padding: {
+        top: 1em;
+        bottom: 0;
+    };
+
+    .logo {
+        margin: 1rem 0;
+        width: 115px;
+        height: 40px;
+
+        span {
+          display: inline-block;
+          margin-left: 1rem;
+        }
+    }
+}
+
+header#main-header ul {
+    column-gap: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background-color: $natural6;
+    color: $natural3;
+    border-radius: 46px;
+    width: 280px;
+    height: 44px;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.dropdown {
+    background-color: $darkblue;
+    display: inline-block;
+}
